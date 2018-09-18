@@ -1,12 +1,11 @@
-Pre Req
-- Download and install Node JS onto your machine
-- Make sure you have NPM package manager installed
+## Job Hunt
 
-Running the web page
-- Download project onto your machine
-- Open terminal in project location and run "npm install"
-- This will install all the packages you need to run the web application
-- Run nodemon app.js
-- Go to your web broweser and open up the web page on localhost:3000
-
-Note: if certain things throw you an error during installation, run them as "sudo"
+### What is Job Hunt ?
+  Why is it so hard to keep track of every place you've applied to when you begin your employment journey ?
+  Of course there are many amazing search engines that query and cater to your exact specifications, but wouldn't it be nice
+  to have all this data organized in one centralized repository at your disposal ?
+  
+  Job Hunt removes the pain in remembering exact descirptions and qualifications of jobs applied to by storing entries in a centralized database, and also allows you to keep track of the current status of your job.
+  
+  ![Alt text](/README_IMAGES/Datatable_Screenshot.png?raw=true "Data Table")
+  
