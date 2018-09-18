@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express();
-// const db = require('./db')
+const db = require('./db')
 
 
 const bodyParser = require('body-parser')
@@ -18,9 +18,24 @@ app.get('/', (req, res) => res.sendFile(__dirname + '/public/index.html'))
 
 // make a post to add form data
 app.post('/', urlencodedParser, (req, res) => {
-    res.send(req.body)
+    // res.send(req.body)
+    db.publishJob(req.body, (err, res) => {
+    	if(err) { return(err.stack) }
+    })
+    res.redirect('/')
 })
+
+// grab all rows from db to display on table
+app.get('/display-table', (req, res) => {
+	db.fetchAllJobs((err, payload) => {
+		if(err){ return err.stack }
+		res.json(payload)
+	})
+})
+
+
+
 // database connection
-// db.connect()
+db.connect()
 
 app.listen(3000, () => console.log('currently listening on port 3000'))
