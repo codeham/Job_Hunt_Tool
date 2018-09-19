@@ -1,4 +1,4 @@
-# Job Hunt
+# Job Hunt (In Progress)
 
 ## What is Job Hunt ?
   Why is it so hard to keep track of every place you've applied to when you begin your employment journey ?
@@ -14,8 +14,14 @@
    * Easily keep track of multiple job applications without the hassle of searching 
      through  excel sheets and old emails.
 
+### Future Features
+   * Exporting entries in PDF format
+   * Visual data analytics utilizing Graph.js
+   * One-click autofill posting from job listing source
+
 ###  Creating a listing
   ![Alt text](/README_IMAGES/Posting_Screenshot.png?raw=true "Posting")
 ###  Datatable
   ![Alt text](/README_IMAGES/Datatable_Screenshot.png?raw=true "Data Table")
-  
+ 
+
