@@ -14,6 +14,8 @@
    * Easily keep track of multiple job applications without the hassle of searching 
      through  excel sheets and old emails.
 
-  
+###  Creating a listing
+  ![Alt text](/README_IMAGES/Datatable_Screenshot.png?raw=true "Data Table")
+###  Datatable
   ![Alt text](/README_IMAGES/Datatable_Screenshot.png?raw=true "Data Table")
   
