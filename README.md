@@ -1,5 +1,5 @@
 # Job Hunt
-### (Work in progress...)
+### (work in progress...) :grin:
 
 ## What is Job Hunt ?
   Why is it so hard to keep track of every place you've applied to when you begin your employment journey ?
