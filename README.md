@@ -15,7 +15,7 @@
      through  excel sheets and old emails.
 
 ###  Creating a listing
-  ![Alt text](/README_IMAGES/Datatable_Screenshot.png?raw=true "Data Table")
+  ![Alt text](/README_IMAGES/Posting_Screenshot.png?raw=true "Posting")
 ###  Datatable
   ![Alt text](/README_IMAGES/Datatable_Screenshot.png?raw=true "Data Table")
   
