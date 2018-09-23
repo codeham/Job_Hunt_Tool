@@ -56,7 +56,6 @@ const publishJob = (jsonData, callback) => {
 	DEFAULT_JOB_STATUS = 'Applied'
 	jsonData['job_status'] = DEFAULT_JOB_STATUS
 
-
 	for(const prop in jsonData){
 		values.push(jsonData[prop])
 	}
@@ -81,6 +80,16 @@ const fetchAllJobs = (callback) => {
 	})
 }
 
-module.exports = {connect, publishJob, fetchAllJobs}
+const fetchId = (id, callback) => {
+	const fetchIdQuery = 'SELECT * FROM JOB_BOOKMARK WHERE ID=' + id
+	client.query(fetchIdQuery, (err, res) => {
+		if(err) { return callback(err) }
+		if(res.rows.length == 0){ return callback("No record for that ID")}
+		callback(null, res.rows)
+	})
+
+}
+
+module.exports = {connect, publishJob, fetchAllJobs, fetchId}
 
 

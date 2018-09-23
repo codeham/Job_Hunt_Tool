@@ -33,6 +33,16 @@ app.get('/display-table', (req, res) => {
 	})
 })
 
+// grab row from db by id
+app.get('/job-listing/:id', (req, res) => {
+	const id = req.params.id
+	db.fetchId(id, (err, payload) => {
+		if(err){ return err.stack }
+		res.json(payload)
+	})
+	// res.json(id)
+})
+
 
 
 // database connection
