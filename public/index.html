@@ -110,49 +110,53 @@
 
       <!-- Modal body -->
       <div id="listingModal" class="modal-body">
-      	<div class="col-md-6">
-      		<p id="position"></p>
-      		<p id="status"></p>
-      		<p id="location"></p>
-      		<p id="platform"></p>
-      		<p id="date"></p>
+      	<div class="row">
+	      	<div class="col-md-6">
+		   		<p id="position"></p>
+		  		<p id="status"></p>
+		  		<p id="location"></p>
+		  		<p id="platform"></p>
+		  		<p id="date"></p>     		
+	      	</div>
       	</div>
+      	<hr/>
 
 
-		<div class="col-md-8">
-			<h6>Description</h6>
-			<textarea disabled="" class="form-control modalDescription" name="description" placeholder="Copy & Paste Description Here" rows="5"></textarea>
+		<div class="row">
+			<div class="col-md-8">
+				<h6><strong>Description</strong></h6>
+				<textarea disabled="" class="form-control modalDescription" name="description" placeholder="Copy & Paste Description Here" rows="9"></textarea>
+			</div>
+			<!-- <br> -->
+			<div class="col-md-8 mt-4">
+				<h6><strong>Requirements</strong></h6>
+				<textarea disabled="" class="form-control modalRequirements" name="requirements" placeholder="Copy & Paste Description Here" rows="9"></textarea>
+			</div>
 		</div>	
-		<!-- divide -->
-		<br>
-		<div class="col-md-8">
-			<h6>Requirements</h6>
-			<textarea disabled="" class="form-control modalRequirements" name="requirements" placeholder="Copy & Paste Description Here" rows="6"></textarea>
-		</div>
-		<br>
+		<hr/>
+
 
 		<!-- Change Status -->
-		<div class="col-md-8">
-			 <p>Change Status</p>
-			<div class="form-check-inline">
-			  <label class="form-check-label">
-			    <input type="radio" class="form-check-input" name="optradio"><span class="badge badge-info">Applied</span>
-			  </label>
-			</div>
-			<div class="form-check-inline">
-			  <label class="form-check-label">
-			    <input type="radio" class="form-check-input" name="optradio"><span class="badge badge-success">In Progress</span>
-			  </label>
-			</div>
-			<div class="form-check-inline disabled">
-			  <label class="form-check-label">
-			    <input type="radio" class="form-check-input" name="optradio" disabled><span class="badge badge-danger">Denied</span>
-			  </label>
-			</div>
+		<div class="row">
+			<div class="col-md-8">
+				 <p>Change Status</p>
+				<div class="form-check-inline">
+				  <label class="form-check-label">
+				    <input type="radio" class="form-check-input" name="optradio"><span class="badge badge-info">Applied</span>
+				  </label>
+				</div>
+				<div class="form-check-inline">
+				  <label class="form-check-label">
+				    <input type="radio" class="form-check-input" name="optradio"><span class="badge badge-success">In Progress</span>
+				  </label>
+				</div>
+				<div class="form-check-inline">
+				  <label class="form-check-label">
+				    <input type="radio" class="form-check-input" name="optradio"><span class="badge badge-danger">Denied</span>
+				  </label>
+				</div>
+			</div>		
 		</div>
-
-
-
       </div>
 
       <!-- Modal footer -->
@@ -163,8 +167,9 @@
     </div>
   </div>
 </div>
-
+<!-- End of Modal -->
 </div>
+<!-- End of Container -->
 
 <!-- Start of Form Posting Container -->
 <div class="container p-2">

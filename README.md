@@ -24,5 +24,7 @@
   ![Alt text](/README_IMAGES/Posting_Screenshot.png?raw=true "Posting")
 ###  Datatable
   ![Alt text](/README_IMAGES/Datatable_Screenshot.png?raw=true "Data Table")
+### UI Friendly Data Modals
+  ![Alt text](/README_IMAGES/Data_Modal.png?raw=true "Data Modal")
  
 
