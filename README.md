@@ -20,11 +20,11 @@
    * Visual data analytics utilizing Graph.js
    * One-click autofill posting from job listing source
 
-###  Creating a listing
+### Creating a listing
   ![Alt text](/README_IMAGES/Posting_Screenshot.png?raw=true "Posting")
-###  Datatable
+### Datatable
   ![Alt text](/README_IMAGES/Datatable_Screenshot.png?raw=true "Data Table")
 ### UI Friendly Data Modals
-  ![Alt text](/README_IMAGES/Data_Modal.png?raw=true "Data Modal")
+  <img src="README_IMAGES/Data_Modal.png" height="900px">
  
 
