@@ -84,12 +84,21 @@ const fetchId = (id, callback) => {
 	const fetchIdQuery = 'SELECT * FROM JOB_BOOKMARK WHERE ID=' + id
 	client.query(fetchIdQuery, (err, res) => {
 		if(err) { return callback(err) }
-		if(res.rows.length == 0){ return callback("No record for that ID")}
+		if(res.rows.length == 0){ return callback("No record for that ID") }
 		callback(null, res.rows)
 	})
 
 }
 
-module.exports = {connect, publishJob, fetchAllJobs, fetchId}
+const deleteId = (id, callback) => {
+	const deleteIdQuery = 'DELETE FROM JOB_BOOKMARK WHERE ID=' + id
+	client.query(deleteIdQuery, (err, res) => {
+		if(err) { return callback(err) }
+		if(res.rows.length == 0){ return callback("No record for that ID") }
+		callback(null, res.rows)
+	})
+}
+
+module.exports = {connect, publishJob, fetchAllJobs, fetchId, deleteId}
 
 
