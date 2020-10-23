@@ -1,4 +1,4 @@
-# Job Hunt
+# Job Hunt (Project Has Been Ported to Spring Boot and Vue.js)
 ### :grin: (work in progress...) 
 
 ## What is Job Hunt ?
